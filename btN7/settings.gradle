@@ -1,0 +1,2 @@
+rootProject.name = "btN7"
+include ':app'

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp"
+    tools:context=".view.App8_Form_Control">
+
+
+    <TextView
+        android:id="@+id/label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Form Controls and Text Fields"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Name"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/label" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter a name"
+        app:layout_constraintBottom_toBottomOf="@id/txtName"
+        app:layout_constraintLeft_toRightOf="@id/txtName"
+        app:layout_constraintTop_toTopOf="@id/txtName" />
+
+    <TextView
+        android:id="@+id/txtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Phone"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtName" />
+
+    <EditText
+        android:id="@+id/edtPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:hint="Enter phone number"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@id/txtPhone"
+        app:layout_constraintLeft_toRightOf="@id/txtPhone"
+        app:layout_constraintTop_toTopOf="@id/txtPhone" />
+
+    <TextView
+        android:id="@+id/txtLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Image Button"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edtPhone" />
+
+    <ImageView
+        android:id="@+id/imgButton1"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/ic_launcher3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtLabel2" />
+
+
+    <TextView
+        android:id="@+id/txtLabel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Standard Button"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/imgButton1" />
+
+
+    <Button
+        android:id="@+id/btnButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Button"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtLabel3" />
+
+    <Button
+        android:id="@+id/btnButton1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@drawable/custom_focus_button"
+        android:text="Button"
+        android:focusableInTouchMode="true"
+        android:focusable="true"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/txtLabel3" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnButton" />
+
+    <TextView
+        android:id="@+id/txtNameImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Button"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@id/imageButton"
+        app:layout_constraintLeft_toRightOf="@id/imageButton"
+        app:layout_constraintTop_toTopOf="@id/imageButton" />
+
+    <Button
+        app:layout_constraintTop_toBottomOf="@id/imageButton"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:id="@+id/button3"
+        style="@style/Widget_Button_Inset"
+        android:layout_width="100dp"
+        android:layout_height="70dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

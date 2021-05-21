@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnApp7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App 7" />
+
+    <Button
+        android:id="@+id/btnApp8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App 8" />
+
+    <Button
+        android:id="@+id/btnApp9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App 9" />
+
+    <Button
+        android:id="@+id/btnApp10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App 10" />
+
+    <Button
+        android:id="@+id/btnApp11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App 11" />
+
+    <Button
+        android:id="@+id/btnApp13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App 13" />
+</LinearLayout>

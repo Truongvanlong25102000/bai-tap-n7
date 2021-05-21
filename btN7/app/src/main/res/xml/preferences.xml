@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="Sử dụng hình ảnh">
+
+        <CheckBoxPreference
+            android:defaultValue="False"
+            android:key="hires"
+            android:summary="Sử dụng hình ảnh chất lượng cao. Thời gian nạp ảnh sẽ chậm"
+            android:title="Chất lượng cao" />
+    </PreferenceCategory>
+
+    <PreferenceCategory xmlns:android="http://schemas.android.com/apk/res/android"
+        android:title="Sở thích của người dùng">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="pie"
+            android:summary="Thích thể thao"
+            android:title="Thể thao" />
+
+        <ListPreference
+            android:defaultValue="Bóng đá"
+            android:dependency="pie"
+            android:dialogTitle="Chọn 1 môn thể thao"
+            android:entries="@array/mon_the_thao"
+            android:entryValues="@array/mon_the_thao"
+            android:key="pie_type"
+            android:summary="Chọn môn thể thao mà bạn ham thích"
+            android:title="Môn thể thao" />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="more_info"
+            android:summary="Tên của vận động viên mà bạn yêu thích"
+            android:title="Vận động viên yêu thích" />
+    </PreferenceCategory>
+
+    <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+        android:key="second_preferencescreen"
+        android:title="Bổ sung thêm thông tin khác ...">
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="extraA"
+            android:summary="Công việc đang làm"
+            android:title="Về việc làm" />
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="ExtraB"
+            android:summary="Ngành đang theo học"
+            android:title="Về học tập" />
+    </PreferenceScreen>
+</PreferenceScreen>

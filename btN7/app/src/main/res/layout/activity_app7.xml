@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".view.App7Activity">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="View Group"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnLinearLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Linear Layout" />
+        </TableRow>
+    </TableLayout>
+
+
+</LinearLayout>

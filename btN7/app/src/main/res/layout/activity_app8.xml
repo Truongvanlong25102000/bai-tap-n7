@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp"
+    tools:context=".view.App8Activity">
+
+    <Button
+        android:id="@+id/btnFormControl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Form Controls" />
+
+    <Button
+        android:id="@+id/btnAdapter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Using Adapter" />
+
+    <Button
+        android:id="@+id/btnProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Progress Bar and Seekbar" />
+
+    <Button
+        android:id="@+id/btnImageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ImageView" />
+
+</LinearLayout>

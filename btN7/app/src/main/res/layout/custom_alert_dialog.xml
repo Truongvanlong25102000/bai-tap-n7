@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingBottom="10dp">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="70dp"
+        android:layout_height="55dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_launcher3" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_marginTop="10dp"
+        android:background="@null"
+        android:hint="Enter your first name"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/buttonCancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText1"
+        android:text="Cancel" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/buttonCancel"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/buttonCancel"
+        android:text="OK" />
+
+</RelativeLayout>
