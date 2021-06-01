@@ -12,6 +12,9 @@
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+
+        <!-- Custom option menu-->
+        <item name="actionOverflowMenuStyle">@style/optionMenuCustomStyle</item>
     </style>
 
     <style name="Widget_Button">
@@ -25,5 +28,12 @@
     <!-- The Widget_Button_Inset has a different background image and some attributes are not set. -->
     <style name="Widget_Button_Inset">
         <item name="android:background">@drawable/insert</item>
+    </style>
+
+
+    <style name="optionMenuCustomStyle" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="overlapAnchor">false</item>
+        <item name="android:overlapAnchor" tools:ignore="NewApi">false</item>
+        <item name="android:dropDownVerticalOffset">3.0dip</item>
     </style>
 </resources>

@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">btN7</string>
-    <string-array name="mon_the_thao"> <item>Bóng đá</item>
+    <string-array name="mon_the_thao">
+        <item>Bóng đá</item>
         <item>Bóng chuyền</item>
         <item>Bóng rỗ</item>
         <item>Bóng bàn</item>

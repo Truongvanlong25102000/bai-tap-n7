@@ -10,11 +10,13 @@ import android.widget.Button;
 import com.example.btn7.view.App10;
 import com.example.btn7.view.App11;
 import com.example.btn7.view.App13;
+import com.example.btn7.view.App14;
+import com.example.btn7.view.App15;
 import com.example.btn7.view.App8Activity;
 
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
 
-    private Button btnApp7, btnApp8, btnApp9, btnApp10, btnApp11, btnApp13;
+    private Button btnApp7, btnApp8, btnApp9, btnApp10, btnApp11, btnApp13,btnApp14,btnApp15;
     private Intent intent;
 
     @Override
@@ -32,6 +34,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnApp10.setOnClickListener(this);
         btnApp11.setOnClickListener(this);
         btnApp13.setOnClickListener(this);
+        btnApp14.setOnClickListener(this);
+        btnApp15.setOnClickListener(this);
     }
 
     private void initView() {
@@ -41,6 +45,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnApp10 = findViewById(R.id.btnApp10);
         btnApp11 = findViewById(R.id.btnApp11);
         btnApp13 = findViewById(R.id.btnApp13);
+        btnApp14 = findViewById(R.id.btnApp14);
+        btnApp15 = findViewById(R.id.btnApp15);
     }
 
     @Override
@@ -62,6 +68,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
             case R.id.btnApp13:
                 intent = new Intent(this, App13.class);
+                break;
+            case R.id.btnApp14:
+                intent = new Intent(this, App14.class);
+                break;
+            case R.id.btnApp15:
+                intent = new Intent(this, App15.class);
                 break;
         }
 

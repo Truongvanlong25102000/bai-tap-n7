@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:icon="@drawable/ic_baseline_more_vert_24"
+        android:title=""
+        app:showAsAction="always">
+        <menu>
+            <item
+                android:id="@+id/addStudent"
+                android:icon="@android:drawable/ic_input_add"
+                android:title="Add student" />
+
+            <item
+                android:id="@+id/removeList"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Remove list student" />
+
+            <item
+                android:id="@+id/removeById"
+                android:icon="@android:drawable/ic_delete"
+                android:title="Remove student by Id" />
+
+            <item
+                android:id="@+id/updateById"
+                android:icon="@android:drawable/ic_menu_edit"
+                android:title="Update Student by Id" />
+        </menu>
+    </item>
+</menu>

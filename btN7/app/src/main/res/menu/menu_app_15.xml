@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="Switch to App 15B"
+        android:id="@+id/switchToApp15"/>
+</menu>
