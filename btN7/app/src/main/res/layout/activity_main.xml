@@ -55,4 +55,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="App 15" />
+
+    <Button
+        android:id="@+id/btnApp16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App 16" />
 </LinearLayout>

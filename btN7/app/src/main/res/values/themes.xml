@@ -36,4 +36,9 @@
         <item name="android:overlapAnchor" tools:ignore="NewApi">false</item>
         <item name="android:dropDownVerticalOffset">3.0dip</item>
     </style>
+
+    <style name="SeekBar" parent="Theme.BtN7">
+        <item name="colorControlActivated">@color/white</item>
+        <item name="colorControlNormal">@color/gray</item>
+    </style>
 </resources>

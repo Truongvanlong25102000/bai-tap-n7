@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".view.App16">
+
+    <Button
+        android:id="@+id/btnRecorder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recorder" />
+
+    <Button
+        android:id="@+id/btnCamera"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Camera" />
+
+    <Button
+        android:id="@+id/btnPlayMusicOnline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Music Online"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnPlayMusicLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Music Local" />
+
+    <Button
+        android:id="@+id/btnPlayVideoOnline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Video Online"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnPlayVideoLocal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play Video Local" />
+</LinearLayout>
